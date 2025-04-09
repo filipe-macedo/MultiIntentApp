@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layoutMain"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@drawable/bg">
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/baseline_add_call_24"
+        android:layout_gravity="center"
+        android:layout_marginTop="60dp"
+        android:tint="@color/white">
+
+    </ImageView>
+
+    <!-- Campo para número de telefone -->
+    <EditText
+        android:id="@+id/editPhoneNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Digite o número de telefone"
+        android:inputType="phone"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="40dp"
+        android:layout_marginHorizontal="40dp"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/white"
+        android:textColorHint="#D9D9D9"/>
+
+    <Button
+        android:id="@+id/btnOpenBrowser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Abrir Navegador"
+        android:layout_marginHorizontal="60dp"
+        android:layout_marginBottom="10dp"
+        android:backgroundTint="@color/white"
+        android:textColor="#0E002D"/>
+
+    <Button
+        android:id="@+id/btnMakeCall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Fazer Ligação"
+        android:layout_marginHorizontal="60dp"
+        android:layout_marginBottom="10dp"
+        android:backgroundTint="@color/white"
+        android:textColor="#0E002D"/>
+
+    <Button
+        android:id="@+id/btnSendSMS"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enviar SMS"
+        android:layout_marginHorizontal="60dp"
+        android:layout_marginBottom="10dp"
+        android:backgroundTint="@color/white"
+        android:textColor="#0E002D"/>
+
+    <Button
+        android:id="@+id/btnOpenMap"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Abrir Mapa"
+        android:layout_marginHorizontal="60dp"
+        android:layout_marginBottom="10dp"
+        android:backgroundTint="@color/white"
+        android:textColor="#0E002D"/>
+
+    <Button
+        android:id="@+id/btnShareText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Compartilhar Texto"
+        android:layout_marginHorizontal="60dp"
+        android:layout_marginBottom="10dp"
+        android:backgroundTint="@color/white"
+        android:textColor="#0E002D"/>
+</LinearLayout>
